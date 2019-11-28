@@ -1,0 +1,34 @@
+{
+  "name": "customiz3-cli",
+  "version": "0.1.0",
+  "description": "Zelda 3 ROM Customizer Command Line Interface",
+  "main": "module.js",
+  "scripts": {
+    "start": "node module.js",
+    "lint": "standard",
+    "integration": "jest int --passWithNoTests",
+    "unit": "jest unit --passWithNoTests --coverage",
+    "coveralls": "shx cat ./coverage/lcov.info | coveralls",
+    "test": "npm run lint && npm run unit && npm run integration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamesaucer/CustomiZ3-CLI.git"
+  },
+  "author": "Gamesaucer <gamesaucer@gmail.com> (https://github.com/gamesaucer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gamesaucer/CustomiZ3-CLI/issues"
+  },
+  "homepage": "https://github.com/gamesaucer/CustomiZ3-CLI#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "yargs": "^15.0.2"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "jest": "^24.9.0",
+    "shx": "^0.3.2",
+    "standard": "^14.3.1"
+  }
+}
