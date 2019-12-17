@@ -4,6 +4,10 @@ test/local
 # Babel export
 lib/
 
+# Specifically excluded folders
+_*
+!__mocks__
+
 # Logs
 logs
 *.log
