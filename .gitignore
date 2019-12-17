@@ -2,7 +2,7 @@
 test/local
 
 # Babel export
-/lib
+lib/
 
 # Logs
 logs
