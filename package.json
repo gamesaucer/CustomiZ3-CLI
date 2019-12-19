@@ -1,6 +1,6 @@
 {
   "name": "@gamesaucer/customiz3-cli",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Zelda 3 ROM Customizer Command Line Interface",
   "main": "./lib/customiz3.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/gamesaucer/CustomiZ3-CLI#readme",
   "dependencies": {
-    "@gamesaucer/customiz3-core": "^1.0.9",
+    "@gamesaucer/customiz3-core": "^1.1.0",
     "chalk": "^3.0.0",
     "yargs": "^15.0.2"
   },
